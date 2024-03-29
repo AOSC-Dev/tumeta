@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aosc.io/topic-toml.schema.json",
+  "title": "Topic Manifest (TOML)",
+  "description": "Topic manifest in TOML format",
+  "type": "object",
+  "properties": {
+
+  }
+}

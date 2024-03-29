@@ -1,0 +1,17 @@
+name.default = "KDE Updates (Winter 2023)"
+name.zh_CN = "KDE 更新（2023 年冬季）"
+# Security update (true/false)?
+security = true
+# OPTIONAL: PSA message for users.
+caution.default = """
+This topic may use significantly more memory after reboot. Our testing finds
+that the new KDE version may use up to 16GiB of RAM.
+"""
+caution.zh_CN = """
+本次更新重启后可能会需要更多内存。据我社维护者测试，新版 KDE 可能需要接近 16GiB 内存。"""
+
+[packages]
+konsole = "23.04.1-1"
+dolphin = "23.04.1"
+# Package removed as part of the topic.
+pykde = false

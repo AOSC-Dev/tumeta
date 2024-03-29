@@ -1,0 +1,8 @@
+name.default = "Winter 2023 Cumulative Update for amd64 AOSC OS systems"
+name.zh_MS = "适用于 amd64 AOSC OS 版本的 23 冬季累计更新"
+
+# Must not exist alongside [packages].
+topics = [
+    "kde-survey-20231201",
+    "core-12.1.0"
+]

@@ -1,0 +1,22 @@
+[package]
+name = "topic_manifest"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = { version = "1.10", optional = true }
+serde = { version = "1.0", features = [ "derive" ] }
+
+localized = { path = "../localized" }
+
+[dev-dependencies]
+toml = "0.8"
+eyre = "0.6"
+serde_json = "1.0"
+
+[features]
+default = []
+parallel = [ "rayon" ]

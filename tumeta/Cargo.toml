@@ -1,0 +1,19 @@
+[package]
+name = "tumeta"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+clap = { version = "4.5", features = [ "derive" ] }
+eyre = "0.6"
+toml = "0.8"
+jwalk = "0.8"
+rayon = "1.10"
+serde = "1.0"
+serde_json = "1.0"
+pretty_env_logger = "0.5"
+
+topic_manifest = { path = "../topic_manifest" }

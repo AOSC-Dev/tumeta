@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "localized",
+    "topic_manifest",
+    "tumeta",
+]
+resolver = "2"
